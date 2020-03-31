@@ -300,7 +300,7 @@ header .intro-text {
   padding: 10px;
   text-align: center;
   color: #CAB17A;
-  cursor: pointer;
+  cursor: pointer:
 }
 
 .service-icon {
@@ -308,15 +308,11 @@ header .intro-text {
   width: 70px;
   height: 70px;
   border: 3px solid #CAB17A;
-  /* transform: rotate(45deg); */
   margin-bottom: 30px;
   margin-top: 16px;
   transition: 0.3s linear;
-}
-
-.service-icon {
   line-height: 70px;
-  /*transform: rotate(45deg); */
+  border-radius: 50%;
   font-size: 26px;
 }
 
