@@ -135,6 +135,7 @@ a:focus,
   font-size: 20px;
   color: #eee;
   font-weight: 400;
+  display: none;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Montserrat", sans-serif;
@@ -164,6 +165,9 @@ a:focus,
   background-color: #252531 !important;
   padding: 0 !important;
   padding: 10px 0 !important;
+}
+.on > div > div > .navbar-brand{
+  display: block !important;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -353,6 +357,11 @@ header .intro-text {
 }
 
 /*OPCIÓN CARROUSEL */
+#portfolio {
+  width: 100%;
+  padding: 120px 0;
+}
+
 #slider {
   margin: 0 auto;
   width: 850px;
