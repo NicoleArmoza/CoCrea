@@ -246,7 +246,7 @@ a:focus,
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.35);
-  height: inherit;
+  height: inherit; 
 }
 .intro .fa {
   font-size: 94px;
@@ -345,18 +345,23 @@ header .intro-text {
 @media screen and (max-width: 960px) {
   .service-box {
     max-width: 45%;
-    height: auto;
+    height: 100vh;
+    position: fixed; 
   }
 }
 
 @media screen and (max-width: 768px) {
   .service-box {
     max-width: 50%;
+    height: inherit;
+    position: fixed; 
   }
 }
 @media screen and (max-width: 480px) {
   .service-box {
     max-width: 100%;
+    height: inherit; 
+    position: fixed;   
   }
 }
 
