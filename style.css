@@ -121,6 +121,7 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
+
 /* Navigation */
 #menu {
   padding: 20px;
@@ -345,8 +346,10 @@ header .intro-text {
 @media screen and (max-width: 960px) {
   .service-box {
     max-width: 45%;
-    height: 100vh;
-  
+    height: 100vh;  
+  }
+  #arrowtobottom {
+    display:none;
   }
 }
 
@@ -355,11 +358,17 @@ header .intro-text {
     max-width: 50%;
     height: inherit;
   }
+  #arrowtobottom {
+    display:none;
+  }
 }
 @media screen and (max-width: 480px) {
   .service-box {
     max-width: 100%;
     height: inherit; 
+  }
+  #arrowtobottom {
+    display:none;
   }
 }
 
